@@ -1,8 +1,6 @@
 {
   "parser": "@typescript-eslint/parser",
-  "plugins": [
-    "@typescript-eslint"
-  ],
+  "plugins": ["@typescript-eslint"],
   "extends": [
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
@@ -22,6 +20,7 @@
     "no-extra-boolean-cast": 0,
     "semi": 1,
     "@typescript-eslint/no-misused-promises": 0,
-    "@typescript-eslint/no-floating-promises": 0
+    "@typescript-eslint/no-floating-promises": 0,
+    "@typescript-eslint/no-empty-function": 0
   }
 }
