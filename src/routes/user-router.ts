@@ -24,7 +24,7 @@ export const queryParams = {
   [Paths.Profile]: ["userId"],
 };
 
-app.use(Paths.All, (req, res, next) => {
+router.use(Paths.All, (req, res, next) => {
   // check auth
   // query all users
   // send req.json
